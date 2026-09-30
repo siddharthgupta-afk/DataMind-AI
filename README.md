@@ -5,6 +5,20 @@
 DataMind-AI is an end-to-end machine learning application that analyzes customer purchasing behavior, performs RFM-based customer segmentation, groups customers using K-Means clustering, and generates personalized product recommendations.
 
 The project combines **Python, Pandas, Scikit-learn, PostgreSQL, FastAPI, HTML, CSS and JavaScript** into a complete data-to-application pipeline.
+---
+
+## 🌐 Live Demo
+
+**DataMind-AI is live and accessible online:**
+
+👉 https://datamind-ai-47y1.onrender.com/
+
+### Live API
+
+- Health Check: https://datamind-ai-47y1.onrender.com/health
+- Recommendations: https://datamind-ai-47y1.onrender.com/recommendations/1489
+- Customer Insights: https://datamind-ai-47y1.onrender.com/customer/1489/insights
+- Swagger API Docs: https://datamind-ai-47y1.onrender.com/docs
 
 ---
 
@@ -380,7 +394,7 @@ DataMind-AI/
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/siddharthgupta-afk/DataMind-AI.git
 cd DataMind-AI
 ```
 

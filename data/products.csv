@@ -1,0 +1,201 @@
+product_id,product_name,category,cost,price
+1,Vacuum Cleaner 1,Home & Kitchen,12259.09,21191.29
+2,Football 2,Sports,11106.02,15826.16
+3,Python Programming 3,Books,8389.32,13312.12
+4,T-Shirt 4,Clothing,2410.78,5202.8
+5,Coffee Maker 5,Home & Kitchen,899.2,1235.05
+6,Atomic Habits 6,Books,10859.02,21150.77
+7,Face Serum 7,Beauty,8964.17,18492.28
+8,Dumbbells 8,Sports,9746.73,11385.66
+9,Cookware Set 9,Home & Kitchen,4533.2,7868.98
+10,Yoga Mat 10,Sports,12416.93,27040.17
+11,Atomic Habits 11,Books,6593.5,11525.15
+12,Cricket Bat 12,Sports,13726.91,28934.67
+13,Python Programming 13,Books,8056.13,10634.86
+14,Python Programming 14,Books,662.2,1200.29
+15,Sneakers 15,Clothing,5710.95,10692.78
+16,Smartphone 16,Electronics,4216.47,6157.77
+17,Air Fryer 17,Home & Kitchen,9101.5,19432.15
+18,Face Wash 18,Beauty,4259.03,6431.52
+19,Hair Dryer 19,Beauty,13555.33,21294.24
+20,Air Fryer 20,Home & Kitchen,4653.08,5539.73
+21,Jeans 21,Clothing,1929.07,4061.98
+22,Football 22,Sports,6655.58,10992.16
+23,Cookware Set 23,Home & Kitchen,11568.15,15541.22
+24,T-Shirt 24,Clothing,9213.03,13804.57
+25,Formal Shirt 25,Clothing,9783.24,14280.01
+26,Laptop 26,Electronics,7583.78,12546.76
+27,Perfume 27,Beauty,8209.52,15343.35
+28,Mixer Grinder 28,Home & Kitchen,9039.86,16098.38
+29,Air Fryer 29,Home & Kitchen,1626.56,3278.0
+30,Hoodie 30,Clothing,3533.32,4085.97
+31,Smartphone 31,Electronics,4454.55,8530.85
+32,T-Shirt 32,Clothing,2660.12,5374.36
+33,Running Shoes 33,Sports,249.2,351.77
+34,Formal Shirt 34,Clothing,2935.56,3657.63
+35,Tablet 35,Electronics,11731.16,16408.02
+36,Data Science Handbook 36,Books,9572.95,15665.94
+37,Sneakers 37,Clothing,11631.53,19923.36
+38,Tennis Racket 38,Sports,3846.44,5822.86
+39,Vacuum Cleaner 39,Home & Kitchen,10191.58,17650.3
+40,Jeans 40,Clothing,8849.95,13014.18
+41,Atomic Habits 41,Books,2271.16,4660.83
+42,Smart Watch 42,Electronics,1911.71,3206.85
+43,Perfume 43,Beauty,9301.23,15077.83
+44,Laptop 44,Electronics,13760.31,23468.86
+45,Python Programming 45,Books,5576.44,9921.88
+46,Cookware Set 46,Home & Kitchen,6920.8,9915.48
+47,Jacket 47,Clothing,9651.7,14713.56
+48,Jacket 48,Clothing,6687.73,11405.06
+49,AI Fundamentals 49,Books,4577.79,9269.71
+50,Face Serum 50,Beauty,5474.83,8022.24
+51,Cricket Bat 51,Sports,3151.69,4582.1
+52,Yoga Mat 52,Sports,742.38,1034.09
+53,Football 53,Sports,648.22,878.34
+54,Yoga Mat 54,Sports,6435.02,13304.66
+55,Tablet 55,Electronics,3175.38,6404.02
+56,Football 56,Sports,14709.96,23513.58
+57,Bluetooth Speaker 57,Electronics,7221.63,12361.23
+58,Hoodie 58,Clothing,1211.1,2402.97
+59,Hair Dryer 59,Beauty,7233.22,8391.44
+60,Cricket Bat 60,Sports,2922.53,5460.7
+61,Air Fryer 61,Home & Kitchen,2008.96,3768.98
+62,Perfume 62,Beauty,12509.64,17180.02
+63,Vacuum Cleaner 63,Home & Kitchen,3551.11,7112.08
+64,Running Shoes 64,Sports,1702.6,2967.21
+65,Laptop 65,Electronics,6487.87,10719.81
+66,Mixer Grinder 66,Home & Kitchen,13066.48,21839.21
+67,Machine Learning Guide 67,Books,6751.86,10450.83
+68,Hoodie 68,Clothing,12174.27,21527.67
+69,Laptop 69,Electronics,3522.36,7059.92
+70,Hoodie 70,Clothing,9148.1,12988.47
+71,Makeup Kit 71,Beauty,11949.23,17028.76
+72,Coffee Maker 72,Home & Kitchen,9221.95,16174.11
+73,Tablet 73,Electronics,746.58,896.37
+74,Football 74,Sports,5236.21,7274.5
+75,Bluetooth Speaker 75,Electronics,13607.63,27545.83
+76,AI Fundamentals 76,Books,5237.63,6546.83
+77,Bluetooth Speaker 77,Electronics,8997.87,16616.81
+78,Mixer Grinder 78,Home & Kitchen,2718.98,3968.49
+79,Vacuum Cleaner 79,Home & Kitchen,14080.67,27672.78
+80,Bedsheet 80,Home & Kitchen,11316.02,23718.28
+81,Business Analytics 81,Books,10918.12,19237.52
+82,Moisturizer 82,Beauty,8503.39,17607.83
+83,Perfume 83,Beauty,9599.62,16795.16
+84,Yoga Mat 84,Sports,14192.63,27377.47
+85,Running Shoes 85,Sports,2851.42,3493.07
+86,Business Analytics 86,Books,7048.86,12094.11
+87,AI Fundamentals 87,Books,12716.78,25821.69
+88,Jacket 88,Clothing,8026.48,10810.93
+89,Cricket Bat 89,Sports,13500.96,22077.15
+90,Bedsheet 90,Home & Kitchen,8030.99,16959.04
+91,Mixer Grinder 91,Home & Kitchen,12201.1,24150.89
+92,Sneakers 92,Clothing,7545.83,15601.31
+93,Cricket Bat 93,Sports,14734.23,18565.89
+94,Formal Shirt 94,Clothing,3421.04,4040.83
+95,Football 95,Sports,5257.44,8444.18
+96,Running Shoes 96,Sports,11675.34,20513.9
+97,Cricket Bat 97,Sports,12547.52,15480.83
+98,Bedsheet 98,Home & Kitchen,368.08,740.62
+99,Business Analytics 99,Books,9919.03,20431.12
+100,Business Analytics 100,Books,9528.07,12627.27
+101,Smart Watch 101,Electronics,7126.55,8547.18
+102,Air Fryer 102,Home & Kitchen,8492.06,13557.46
+103,Hair Dryer 103,Beauty,3274.34,6595.4
+104,Coffee Maker 104,Home & Kitchen,9494.46,17468.31
+105,Business Analytics 105,Books,8169.22,9571.88
+106,Machine Learning Guide 106,Books,14425.54,16769.45
+107,Atomic Habits 107,Books,3088.35,5735.07
+108,Tablet 108,Electronics,11217.32,14335.21
+109,Hoodie 109,Clothing,1381.34,1949.14
+110,Yoga Mat 110,Sports,12821.9,28002.99
+111,Air Fryer 111,Home & Kitchen,9765.51,14461.81
+112,Smartphone 112,Electronics,10907.9,13028.13
+113,Tablet 113,Electronics,8060.56,16263.55
+114,Bluetooth Speaker 114,Electronics,10814.25,12921.43
+115,Coffee Maker 115,Home & Kitchen,13213.93,19349.21
+116,Machine Learning Guide 116,Books,3257.44,3984.38
+117,Vacuum Cleaner 117,Home & Kitchen,11967.11,20433.55
+118,Sneakers 118,Clothing,11411.38,14798.89
+119,Face Serum 119,Beauty,3412.09,5173.11
+120,Business Analytics 120,Books,6133.96,8634.24
+121,Air Fryer 121,Home & Kitchen,12017.49,14581.68
+122,Tablet 122,Electronics,5141.18,7649.28
+123,Face Serum 123,Beauty,5627.43,12118.15
+124,Makeup Kit 124,Beauty,3845.39,7049.35
+125,Face Wash 125,Beauty,3743.25,6220.2
+126,Jacket 126,Clothing,5331.42,11041.81
+127,Smart Watch 127,Electronics,4494.62,7022.99
+128,Business Analytics 128,Books,830.29,1071.68
+129,Yoga Mat 129,Sports,7178.74,9625.23
+130,Smartphone 130,Electronics,8261.59,13160.01
+131,Machine Learning Guide 131,Books,6265.92,9463.24
+132,Jacket 132,Clothing,2820.92,3487.55
+133,Mixer Grinder 133,Home & Kitchen,1216.58,2299.38
+134,Face Serum 134,Beauty,717.44,904.04
+135,Machine Learning Guide 135,Books,14391.71,21436.4
+136,Jacket 136,Clothing,8124.12,16321.7
+137,Cookware Set 137,Home & Kitchen,12457.89,14887.13
+138,Coffee Maker 138,Home & Kitchen,754.61,1398.1
+139,Running Shoes 139,Sports,2203.46,4801.64
+140,Laptop 140,Electronics,2312.11,3677.83
+141,Moisturizer 141,Beauty,14017.68,23613.7
+142,Laptop 142,Electronics,9579.65,17820.58
+143,Face Serum 143,Beauty,8027.25,14111.6
+144,Dumbbells 144,Sports,11954.85,25378.87
+145,Cricket Bat 145,Sports,8711.96,10429.51
+146,Face Wash 146,Beauty,4049.89,7872.91
+147,Business Analytics 147,Books,9475.1,17781.52
+148,Bluetooth Speaker 148,Electronics,2770.77,4657.5
+149,Bedsheet 149,Home & Kitchen,7735.38,15111.25
+150,Mixer Grinder 150,Home & Kitchen,1855.91,3511.86
+151,Bedsheet 151,Home & Kitchen,11279.53,18344.56
+152,Face Serum 152,Beauty,6911.99,14395.46
+153,Tablet 153,Electronics,14523.96,28994.85
+154,Running Shoes 154,Sports,11874.78,23101.64
+155,Vacuum Cleaner 155,Home & Kitchen,11531.87,13686.84
+156,Air Fryer 156,Home & Kitchen,8941.58,17418.26
+157,Bluetooth Speaker 157,Electronics,7502.58,12947.92
+158,Makeup Kit 158,Beauty,11261.71,24324.06
+159,Formal Shirt 159,Clothing,3663.74,5770.16
+160,Face Wash 160,Beauty,406.08,574.04
+161,Formal Shirt 161,Clothing,324.75,377.71
+162,Laptop 162,Electronics,3056.42,6165.41
+163,Face Serum 163,Beauty,2957.09,3797.21
+164,Jacket 164,Clothing,4114.71,5452.82
+165,Laptop 165,Electronics,1203.74,2455.33
+166,T-Shirt 166,Clothing,9245.95,17663.18
+167,Cookware Set 167,Home & Kitchen,7035.01,8144.35
+168,Coffee Maker 168,Home & Kitchen,491.27,929.8
+169,Makeup Kit 169,Beauty,8955.16,16919.54
+170,Bluetooth Speaker 170,Electronics,3383.35,4852.6
+171,Hoodie 171,Clothing,9720.05,11785.29
+172,Makeup Kit 172,Beauty,9318.66,11683.09
+173,Data Science Handbook 173,Books,2334.14,3363.26
+174,Face Serum 174,Beauty,8893.25,17094.14
+175,Moisturizer 175,Beauty,11217.25,24477.29
+176,Cricket Bat 176,Sports,3229.35,4315.47
+177,Smart Watch 177,Electronics,12661.33,25108.98
+178,Jacket 178,Clothing,407.03,823.83
+179,AI Fundamentals 179,Books,10167.04,13532.44
+180,Wireless Headphones 180,Electronics,8096.83,14598.18
+181,Smartphone 181,Electronics,4721.09,8035.92
+182,Tablet 182,Electronics,5845.94,7031.34
+183,Smartphone 183,Electronics,8283.1,13427.6
+184,Data Science Handbook 184,Books,1030.14,2190.56
+185,Wireless Headphones 185,Electronics,8999.44,17714.54
+186,Sneakers 186,Clothing,13420.29,21268.61
+187,T-Shirt 187,Clothing,8654.37,11738.99
+188,Football 188,Sports,661.42,996.04
+189,Hair Dryer 189,Beauty,4832.23,5861.15
+190,Moisturizer 190,Beauty,2221.11,4782.23
+191,Running Shoes 191,Sports,584.75,955.75
+192,Cricket Bat 192,Sports,1524.23,2957.41
+193,Tablet 193,Electronics,6881.77,9071.96
+194,Smartphone 194,Electronics,8199.93,12707.5
+195,Tablet 195,Electronics,7737.88,16085.73
+196,Machine Learning Guide 196,Books,7535.09,10134.09
+197,Laptop 197,Electronics,4879.96,10336.5
+198,Vacuum Cleaner 198,Home & Kitchen,6231.19,7897.84
+199,Face Serum 199,Beauty,8628.3,14879.64
+200,Smart Watch 200,Electronics,12546.67,20420.05

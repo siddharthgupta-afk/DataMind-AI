@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DataMind AI | Personalized Recommendations</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="brand">
+                <div class="brand-icon">✦</div>
+
+                <div>
+                    <h1>DataMind</h1>
+                    <span>AI Recommendation Engine</span>
+                </div>
+            </div>
+
+            <nav>
+
+                <a
+                    class="active"
+                    href="#dashboard"
+                >
+                    <span>⌂</span>
+                    Dashboard
+                </a>
+
+                <a href="#recommendationSection">
+                    <span>◈</span>
+                    Recommendations
+                </a>
+
+                <a href="#customerSection">
+                    <span>◎</span>
+                    Customer Insights
+                </a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <div class="status-dot"></div>
+                <span>AI Engine Online</span>
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main
+            class="main"
+            id="dashboard"
+            >
+
+            <!-- HEADER -->
+            <header class="topbar">
+
+                <div>
+                    <p class="eyebrow">CUSTOMER INTELLIGENCE</p>
+
+                    <h2>
+                        Personalized
+                        <span>Recommendations</span>
+                    </h2>
+
+                    <p class="subtitle">
+                        AI-powered product recommendations based on customer
+                        behavior, RFM analysis and clustering.
+                    </p>
+                </div>
+
+                <div class="api-status">
+                    <span class="pulse"></span>
+                    API Connected
+                </div>
+
+            </header>
+
+
+            <!-- SEARCH CARD -->
+            <section class="search-card">
+
+                <div class="search-info">
+                    <div class="search-icon">⌕</div>
+
+                    <div>
+                        <h3>Find Customer</h3>
+
+                        <p>
+                            Enter a customer ID to generate personalized
+                            recommendations.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="search-box">
+
+                    <input
+                        id="customerId"
+                        type="number"
+                        placeholder="e.g. 1489"
+                        value="1489"
+                    >
+
+                    <button id="recommendBtn">
+                        Get Recommendations
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- CUSTOMER OVERVIEW -->
+            <section id="customerSection" class="hidden">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="eyebrow">CUSTOMER PROFILE</p>
+
+                        <h3>
+                            Customer
+                            <span id="customerNumber">#1489</span>
+                        </h3>
+                    </div>
+
+                    <div class="cluster-badge">
+                        Cluster <strong id="clusterNumber">0</strong>
+                    </div>
+
+                </div>
+
+
+                <!-- METRICS -->
+            <div class="metrics">
+
+                 <div class="metric-card">
+                    <span class="metric-label">Total Orders</span>
+                    <strong id="metricOrders">—</strong>
+                </div>
+
+                <div class="metric-card">
+                    <span class="metric-label">Total Spent</span>
+                    <strong id="metricSpent">—</strong>
+                </div>
+
+                <div class="metric-card">
+                    <span class="metric-label">Recency</span>
+                    <strong id="metricRecency">—</strong>
+                </div>
+
+                <div class="metric-card">
+                    <span class="metric-label">Customer Segment</span>
+                    <strong id="metricSegment">—</strong>
+                </div>
+
+            
+
+            </div>
+
+<!-- ============================================================
+     RFM INTELLIGENCE
+============================================================ -->
+
+<section class="rfm-section">
+
+    <div class="section-heading rfm-heading">
+
+        <div>
+            <p class="eyebrow">BEHAVIORAL INTELLIGENCE</p>
+
+            <h3>RFM <span>Intelligence</span></h3>
+
+            <p class="rfm-description">
+                Customer behavior scored across Recency,
+                Frequency and Monetary value.
+            </p>
+        </div>
+
+        <div class="rfm-total">
+            <span>RFM SCORE</span>
+            <strong id="rfmTotal">—</strong>
+            <small>/ 15</small>
+        </div>
+
+    </div>
+
+
+    <div class="rfm-grid">
+
+        <!-- RECENCY -->
+
+        <div class="rfm-card">
+
+            <div class="rfm-top">
+
+                <div class="rfm-icon">
+                    R
+                </div>
+
+                <span>RECENCY</span>
+
+            </div>
+
+            <strong id="rScore">—</strong>
+
+            <p>
+                How recently the customer purchased.
+            </p>
+
+        </div>
+
+
+        <!-- FREQUENCY -->
+
+        <div class="rfm-card">
+
+            <div class="rfm-top">
+
+                <div class="rfm-icon">
+                    F
+                </div>
+
+                <span>FREQUENCY</span>
+
+            </div>
+
+            <strong id="fScore">—</strong>
+
+            <p>
+                How frequently the customer orders.
+            </p>
+
+        </div>
+
+
+        <!-- MONETARY -->
+
+        <div class="rfm-card">
+
+            <div class="rfm-top">
+
+                <div class="rfm-icon">
+                    M
+                </div>
+
+                <span>MONETARY</span>
+
+            </div>
+
+            <strong id="mScore">—</strong>
+
+            <p>
+                How much the customer has spent.
+            </p>
+
+        </div>
+
+
+        <!-- OVERALL -->
+
+        <div class="rfm-card rfm-highlight">
+
+            <div class="rfm-top">
+
+                <div class="rfm-icon">
+                    ✦
+                </div>
+
+                <span>OVERALL</span>
+
+            </div>
+
+            <strong id="rfmOverall">—</strong>
+
+            <p id="rfmLabel">
+                Customer value profile
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ============================================================
+     DATAMIND INSIGHT
+============================================================ -->
+
+<section class="datamind-insight">
+
+    <div class="insight-orb">
+        ✦
+    </div>
+
+    <div class="insight-content">
+
+        <div class="insight-label">
+            <span class="insight-pulse"></span>
+            DATAMIND INSIGHT
+        </div>
+
+        <h3 id="customerInsightTitle">
+            Customer intelligence generated
+        </h3>
+
+        <p id="customerInsightText">
+            DataMind is analyzing customer behavior,
+            RFM signals and purchase patterns.
+        </p>
+
+    </div>
+
+    <div class="insight-score">
+
+        <span>RFM</span>
+
+        <strong id="insightRfm">
+            —
+        </strong>
+
+        <small>/15</small>
+
+    </div>
+
+</section>
+
+<!-- ============================================================
+     RECOMMENDATION EXPLANATION
+============================================================ -->
+
+<div class="recommendation-explanation">
+
+    <div class="explanation-icon">
+        ✦
+    </div>
+
+    <div class="explanation-content">
+
+        <p class="eyebrow">RECOMMENDATION LOGIC</p>
+
+        <h4>Why these products?</h4>
+
+        <p id="recommendationReason">
+            Recommendations are personalized using customer behavior
+            and purchase history.
+        </p>
+
+        <p id="recommendationProfile"></p>
+
+        <div class="explanation-tags">
+
+            <span>✓ Category Preference</span>
+
+            <span>✓ Cluster Behavior</span>
+
+            <span>✓ Product Popularity</span>
+
+            <span>✓ Purchase History</span>
+
+        </div>
+
+    </div>
+
+</div>
+
+                <!-- RECOMMENDATIONS -->
+                <div
+                    class="recommendation-header"
+                    id="recommendationSection"
+                >
+
+                    <div>
+                        <p class="eyebrow">PERSONALIZED ENGINE</p>
+
+                        <h3>Recommended For You</h3>
+                    </div>
+
+                    <span id="recommendationCount">
+                        5 products
+                    </span>
+
+                </div>
+
+
+                <div
+                    id="recommendations"
+                    class="recommendations-grid"
+                ></div>
+
+            </section>
+
+
+            <!-- EMPTY STATE -->
+            <section id="emptyState" class="empty-state">
+
+                <div class="empty-icon">✦</div>
+
+                <h3>Ready to discover</h3>
+
+                <p>
+                    Enter a customer ID above and let DataMind AI
+                    find products tailored to their behavior.
+                </p>
+
+            </section>
+
+
+            <!-- ERROR -->
+            <div
+                id="errorMessage"
+                class="error-message hidden"
+            ></div>
+
+        </main>
+
+    </div>
+
+
+    <script src="/static/app.js"></script>
+
+
+
+</body>
+</html>
